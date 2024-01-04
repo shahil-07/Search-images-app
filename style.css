@@ -35,6 +35,9 @@ form{
     font-size: 18px;
     color: #333;
 }
+#search-input:hover{
+    border: 2px solid black;
+}
 
 #search-button{
     padding: 10px 20px;
@@ -46,6 +49,10 @@ form{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+#search-button:hover{
+    background-color: #0b654f;
 }
 
 .search-results{
